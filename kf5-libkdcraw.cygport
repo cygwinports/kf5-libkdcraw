@@ -1,0 +1,19 @@
+inherit kf5
+
+NAME="kf5-libkdcraw"
+VERSION=16.08.2
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="KDE RAW graphics library"
+DESCRIPTION="Libkdcraw is a C++ interface around LibRaw library used to decode
+RAW picture files."
+
+PKG_NAMES="libKF5KDcraw5 libKF5KDcraw-devel"
+libKF5KDcraw5_CONTENTS="usr/bin/cygKF5KDcraw-5.dll usr/share/doc/"
+libKF5KDcraw_devel_REQUIRES="libQt5Gui-devel"
+libKF5KDcraw_devel_CONTENTS="
+	usr/include/KF5/KDCRAW/
+	usr/include/KF5/libkdcraw_version.h
+	usr/lib/cmake/KF5KDcraw/
+	usr/lib/libKF5KDcraw.dll.a
+"
