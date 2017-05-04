@@ -2,7 +2,7 @@ inherit kf5
 
 NAME="kf5-libkdcraw"
 VERSION=16.08.3
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="KDE RAW graphics library"
 DESCRIPTION="Libkdcraw is a C++ interface around LibRaw library used to decode
